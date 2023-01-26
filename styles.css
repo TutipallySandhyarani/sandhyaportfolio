@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Source+Sans+Pro:wght@400;700&display=swap');
 
 :root  {
-    --primary--color: blue;
+    --primary--color: purple;
 }
 
 body {
@@ -21,9 +21,11 @@ body {
 }
 
 /** links **/
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 
 .link-primary {
@@ -93,17 +95,17 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: gray;
+    color: orangered;
 }
 
 .hero .hero-heading .heading-inverted {
-    color: blueviolet;
+    color: orangered;
 }
 
 /** section **/
 
 .section {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .section h1 {
@@ -111,7 +113,7 @@ body {
 }
 
 .ow {
-    background-color: var(--primary--color);
+    background-color: gainsboro;
 }
 
 .footer {
@@ -120,9 +122,22 @@ body {
     text-align: center;
     color: aliceblue;
     border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+    
 }
+
 
 .footer .link {
     color: aliceblue;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }

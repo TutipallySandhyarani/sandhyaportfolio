@@ -79,7 +79,27 @@ body {
 .navigation .link-active {
     font-weight: bold;
 }
+.developer .developer-img {
+    max-width: 80%;
+    padding-top: 2rem;
+    width: 400px;
+    display: block;
+    margin: auto;
+  }
+  .developer {
+    padding-top: 0.5rem;
+  }
+  .developer .developer-title {
+    text-align: center;
+    color: orangered;
+  }
+  .developer .developer-title .name {
+    color: orangered;
+  }
+  
+  
 
+}
 /** header **/
 
 .hero {

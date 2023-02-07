@@ -1,1 +1,1 @@
-Hey! Welcome to my portfolio which is coming up.
+Here is my portfolio. It contains projects which I have made while learning web development.

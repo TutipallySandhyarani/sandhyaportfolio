@@ -9,6 +9,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 /** container **/
 .container {
     padding-left: 1rem;
@@ -45,6 +46,7 @@ body {
 
 .list-non-bullet {
     list-style: none;
+    
 }
 
 .list-item-inline {
